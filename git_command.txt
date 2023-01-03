@@ -52,6 +52,8 @@ git commit -m "developer2 에서 생성한 파일 입니다"
 [이제 developer2 로 업로드 한다]
 git push origin developer2
 
+[브랜치 삭체하기]
+git branch -D developer2
 
-
-
+[삭제한 브랜치 원격저장소에 반영하기]
+git push origin :developer2
