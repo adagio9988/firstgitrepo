@@ -1,0 +1,23 @@
+## 2023-01-04 first
+
+gti config --global user.name "soo"
+git config --global user.email "adagio9988@gmail.com"
+
+[등록정보확인]
+git config --global --list
+
+[git 상태확인]
+git status
+
+[Git 파일  변경내역 추가]
+git add git_command.txt
+
+git commit -m "첫번째 git command 작성"
+
+git log
+
+
+
+
+
+
