@@ -16,7 +16,19 @@ git commit -m "첫번째 git command 작성"
 
 git log
 
+git remote add origin https://github.com/adagio9988/firstgitrepo.git
 
+[연결저장소 확인]
+git remote -v
+
+[push 올리기]
+git push origin master
+
+[clone 다운받기]
+git clone https://github.com/adagio9988/firstgitrepo.git
+
+[로컬 저장소를 최신 상태로 반영]
+git pull origin master
 
 
 
