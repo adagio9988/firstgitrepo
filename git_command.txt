@@ -34,6 +34,24 @@ git pull origin master
 git revert  5f88f0a90479e5f9465d82eb18500a91482e74e3
 git push origin master
 
+[git branch 생성하기]
+
+git branch , 브랜치 확인명령
+
+git branch developer2
+
+[branch 를 만든다음에 브랜치 변경하기]
+
+git checkout developer2
+
+[developer2.txt 파일 작성한다.]
+
+git add developer2.txt
+git commit -m "developer2 에서 생성한 파일 입니다"
+
+[이제 developer2 로 업로드 한다]
+git push origin developer2
+
 
 
 
