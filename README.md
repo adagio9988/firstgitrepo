@@ -8,3 +8,13 @@
 - git log
 
 ## 좀더 공부하자
+
+#### Issue 생성을 통해 버그를 제보하거나, 다른 작업자들과 공유할 내용을 Open 할수 있다.
+또한 Issue 별로 tag를 설정할 수 있다.
+관리자는 Issue를 확인하고 Issue를 Close 상태로 변경할 수 있다.
+
+[이슈 처리 프로세스]
+Issue Open -> 버그수정 (commit) -> Issue Close
+
+
+
