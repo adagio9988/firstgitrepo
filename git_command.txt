@@ -6,54 +6,60 @@ git config --global user.email "adagio9988@gmail.com"
 [등록정보확인]
 git config --global --list
 
-[git 상태확인]
-git status
-
-[Git 파일  변경내역 추가]
-git add git_command.txt
-
-git commit -m "첫번째 git command 작성"
-
+[로그정보확인]
 git log
+git log --oneline --all --graph
 
+[원격저장소 추가하기]
 git remote add origin https://github.com/adagio9988/firstgitrepo.git
 
 [연결저장소 확인]
 git remote -v
 
-[push 올리기]
-git push origin master
-
 [clone 다운받기]
 git clone https://github.com/adagio9988/firstgitrepo.git
 
-[로컬 저장소를 최신 상태로 반영]
+##############################################################
+
+1. [git 상태확인]
+git status
+
+2. [Git 파일  변경내역 추가]
+git add git_command.txt
+
+3. [commit 하기]
+git commit -m "첫번째 git command 작성"
+
+4. [push 올리기]
+git push origin master
+
+5. [로컬 저장소를 원격저장소의 최신 상태로 저장하기]
 git pull origin master
 
-[잘못 작성된 것을 되 돌리기]
+6. [잘못 작성된 것을 되 돌리기]
 git revert  5f88f0a90479e5f9465d82eb18500a91482e74e3
 git push origin master
 
-[git branch 생성하기]
+7. [git branch 확인하기]
+git branch 
 
-git branch , 브랜치 확인명령
-
+8. [git branch 생성하기]
 git branch developer2
 
-[branch 를 만든다음에 브랜치 변경하기]
-
+9. [branch 변경하기, developer2 branch로 변경하기]
 git checkout developer2
 
-[developer2.txt 파일 작성한다.]
-
+- developer2.txt 파일 작성한다.]
 git add developer2.txt
 git commit -m "developer2 에서 생성한 파일 입니다"
 
-[이제 developer2 로 업로드 한다]
+10. [branch developer2 로 업로드 하기]
 git push origin developer2
 
-[브랜치 삭체하기]
+11. [브랜치 삭체하기]
 git branch -D developer2
 
-[삭제한 브랜치 원격저장소에 반영하기]
+12. [삭제한 브랜치 원격저장소에 반영하기]
 git push origin :developer2
+
+
