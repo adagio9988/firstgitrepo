@@ -16,5 +16,21 @@
 [이슈 처리 프로세스]
 Issue Open -> 버그수정 (commit) -> Issue Close
 
+## 소프트웨어 버전명을 기록하기 - tag
+현재 소스코드 상태에 대한 기록을 남긴
+git tag -a v0.0.1
+
+생성된 tag를 확인
+git tag -l
+
+생성된 tag를 원격 저장소에 반영
+git push origin v0.0.1
+
+
+
+
+
+
+
 
 
