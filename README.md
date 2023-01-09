@@ -2,6 +2,7 @@
 - git fetch --all
 - git reset --hard origin/master
 - git pull origin master
+
 #일반명령어 들
 - git clone
 - git push
