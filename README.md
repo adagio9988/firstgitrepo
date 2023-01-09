@@ -1,5 +1,8 @@
-# 이 저장소는 처음 배우는 Git/GitHub 과정 연습을 위한 저장소 입니다.
-다양한 **Markdown** 문법을 연습해 봅시다
+#원격저장소 내용을 로컬에 강제로 똑 같이 만들기, 로칼이 덮어쓰여진다.
+- git fetch --all
+- git reset --hard origin/master
+- git pull origin master
+#일반명령어 들
 - git clone
 - git push
 - git pull
