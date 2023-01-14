@@ -63,3 +63,22 @@ git branch -D developer2
 git push origin :developer2
 
 
+[원격저장소를 로컬 저장소로 모두 초기화]
+1. 로컬 저장소의.git 디렉토리를 삭제
+
+2. git init
+
+3. git add .
+
+4. git commit -m "1.db insert OK"
+
+5. git remote add origin https://github.com/adagio9988/CRUD-SERVER-NODEJS-MYSQL.git
+
+git status 
+On branch master
+
+[현재의 브랜치 master -> main 으로 변경]
+6. git branch -m main
+
+[강제로 원격 저장소를 현재 로컬로 초기화 한다]
+7. git push --force --set-upstream origin main
