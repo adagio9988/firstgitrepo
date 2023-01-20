@@ -82,3 +82,9 @@ On branch master
 
 [강제로 원격 저장소를 현재 로컬로 초기화 한다]
 7. git push --force --set-upstream origin main
+
+[원격 git 저장소의 master를 내 local로 덮어 씌우고 싶다]
+git fetch --all
+git reset --hard origin/main
+git pull origin main
+
