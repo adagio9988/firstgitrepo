@@ -1,7 +1,7 @@
 #원격저장소 내용을 로컬에 강제로 똑 같이 만들기, 로칼이 덮어쓰여진다.
 - git fetch --all
-- git reset --hard origin/master
-- git pull origin master
+- git reset --hard origin/main
+- git pull origin main
 
 #일반명령어 들
 - git clone
