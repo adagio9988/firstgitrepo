@@ -26,6 +26,7 @@ git status
 
 2. [Git 파일  변경내역 추가]
 git add git_command.txt
+git add -u를 하면 수정된 파일만 add하게 된다.
 
 3. [commit 하기]
 git commit -m "첫번째 git command 작성"
