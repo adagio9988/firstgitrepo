@@ -1,10 +1,12 @@
-[강제로 원격 저장소를 현재 로컬로 초기화 한다]
-git push --force --set-upstream origin main
-
-[원격저장소 내용을 로컬에 강제로 똑 같이 만들기, 로칼이 덮어쓰여진다]
-git fetch --all
-git reset --hard origin/main
-git pull origin main
+[강제로 원격 저장소를 현재 로컬로 초기화 한다]  
+git push --force --set-upstream origin main  
+  
+[원격저장소 내용을 로컬에 강제로 똑 같이 만들기, 로칼이 덮어쓰여진다]  
+git fetch --all  
+git reset --hard origin/main  
+git pull origin main  
+  
+  
 
 #일반명령어 들
 - git clone
